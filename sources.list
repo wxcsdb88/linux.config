@@ -1,0 +1,104 @@
+##source.list
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+# 源码
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+# Canonical 合作伙伴和附加
+# deb http://archive.canonical.com/ubuntu/ trusty partner
+# deb http://extras.ubuntu.com/ubuntu/ trusty main
+
+##aliyun
+deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+# 源码
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+
+##中国开源软件中心
+deb http://mirrors.oss.org.cn/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.oss.org.cn/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.oss.org.cn/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.oss.org.cn/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb http://mirrors.oss.org.cn/ubuntu/ trusty-proposed main restricted universe multiverse
+# 源码
+deb-src http://mirrors.oss.org.cn/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.oss.org.cn/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb-src http://mirrors.oss.org.cn/ubuntu/ trusty-proposed main restricted universe multiverse
+
+##tsinghua
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-security main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-updates main restricted universe multiverse
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-backports main restricted universe multiverse
+##测试版源
+deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-proposed main restricted universe multiverse
+# 源码
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-security main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-updates main restricted universe multiverse
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-backports main restricted universe multiverse
+##测试版源
+deb-src http://mirrors.tuna.tsinghua.edu.cn/ubuntu/  trusty-proposed main restricted universe multiverse
+
+##zhongkeyuan
+deb http://mirrors.opencas.cn/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.opencas.cn/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.opencas.cn/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.opencas.cn/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb http://mirrors.opencas.cn/ubuntu/ trusty-proposed main restricted universe multiverse
+# 源码
+deb-src http://mirrors.opencas.cn/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.opencas.cn/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.opencas.cn/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.opencas.cn/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb-src http://mirrors.opencas.cn/ubuntu/ trusty-proposed main restricted universe multiverse
+
+##taiwan
+deb http://tw.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse
+deb http://tw.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://tw.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://tw.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb http://tw.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+# 源码
+deb-src http://tw.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://tw.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+##测试版源
+deb-src http://tw.archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+
+
+
+# http://cn.archive.ubuntu.com/ubuntu/
+# http://mirrors.aliyun.com/ubuntu/
+# http://mirrors.oss.org.cn/ubuntu/
+# http://mirrors.opencas.cn/ubuntu/
+##https://mirrors.skyshe.cn/ubuntu/
+# http://mirrors.tuna.tsinghua.edu.cn/ubuntu/ 
+# http://mirrors.4.tuna.tsinghua.edu.cn/ubuntu/ 
+# http://mirrors.6.tuna.tsinghua.edu.cn/ubuntu/
+
