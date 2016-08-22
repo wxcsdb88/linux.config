@@ -1,0 +1,10 @@
+##vim config:
+# so lazy,so cool
+#   wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
+##config  tools:
+# Fabric is a Python (2.5-2.7) l
+    https://github.com/fabric/fabric
+##test tools:
+# git clone,and execute sudo make && make install
+    https://github.com/EZLippi/WebBench
+
