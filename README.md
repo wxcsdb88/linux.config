@@ -53,7 +53,7 @@ export GOBIN=$GOROOT/bin
 export PATH=$GOROOT/bin:$PATH
 export GOPATH=$HOME/dev/work
 ```
----
+>show go enviroment
 ```
 go env
 ```
@@ -82,3 +82,15 @@ func main(){
 }
 
 ```
+>build and run 
+```
+go build hello.go
+#linux
+./hello
+#or windows
+hello.exe
+#
+go run hello.go
+```
+
+
