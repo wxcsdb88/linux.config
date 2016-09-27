@@ -53,4 +53,32 @@ export GOBIN=$GOROOT/bin
 export PATH=$GOROOT/bin:$PATH
 export GOPATH=$HOME/dev/work
 ```
->go env
+---
+```
+go env
+```
+>[go1.7 for win x64](https://golang.org/dl/)
+```
+install location   D:\Go
+```
+>win10  win+x->path config:
+```
+config path:
+GOROOT=D:\Go
+GOPATH=E:\workspace\go
+GOBIN=%GOROOT%\bin
+PATH=%GOROOT%;%PATH%
+```
+>hello.go
+
+```go
+package main
+
+import "fmt"
+
+func main(){
+        fmt.Printf("hello, world\n")
+
+}
+
+```
