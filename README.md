@@ -1,4 +1,6 @@
-# 1. git
+[Linux config Documentation] http://linuxconfig.readthedocs.io
+
+### 1. git
 >git install
 ```
 sudo apt-get install git
@@ -14,15 +16,16 @@ git config -l
 ssh-keygen -t rsa -b 4096 -C "youremail@xx.xx"
 ```
 
-# 2. terminal config
+### 2. terminal config
 >[linux.config](https://github.com/wxcsdb88/linux.config)
 ```
 cd linux.config
 cp .inputrc ~/.inputrc
 ```
-###### shouldn`t use the cp .inputrc /etc/inputrc
+>shouldn`t use the cp .inputrc /etc/inputrc
 
-# 3. vim plugin & sources
+
+### 3. vim plugin & sources
 >[vim plugin](https://github.com/ma6174/vim)
 ```
 sudo wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
@@ -34,12 +37,12 @@ sudo cp sources.list /etc/apt/
 sudo apt-get update
 ```
 
-# 4. terminator(multiple windows)
+### 4. terminator(multiple windows)
 ```
 sudo apt-get install terminator
 ```
 
-# 5. go
+### 5. go
 >[go1.7 for linux](https://golang.org/doc/install?download=go1.7.1.linux-amd64.tar.gz)
 
 >[go doc](https://golang.org/doc/)
@@ -59,7 +62,7 @@ go env
 ```
 >[go1.7 for win x64](https://golang.org/dl/)
 ```
-install location   D:\Go
+install location #  D:\Go
 ```
 >win10  win+x->path config:
 ```
