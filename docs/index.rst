@@ -1,2 +1,9 @@
+Linux config Documentation
+==========================
 
-# Linux config for new ubuntu14.04
+.. toctree::
+  :maxdepth: 1
+
+  description
+
+  base
