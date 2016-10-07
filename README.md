@@ -1,4 +1,4 @@
-[Linux config Documentation] http://linuxconfig.readthedocs.io
+# [Linux config Documentation] (http://linuxconfig.readthedocs.io)
 
 ### 1. git
 >git install
