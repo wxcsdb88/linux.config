@@ -7,3 +7,7 @@ Linux config Documentation
   description
 
   base
+
+  plugin
+
+  resources
