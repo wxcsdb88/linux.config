@@ -1,48 +1,96 @@
-# linux.config
-1. git
-#git install
+# 1. git
+>git install
+```
 sudo apt-get install git
-
-#git config
+```
+>git config
+```
 git config --global user.email email
 git config --global user.name nickname
 git config -l
-
-#Generating public/private rsa key pair.
+```
+>Generating public/private rsa key pair
+```
 ssh-keygen -t rsa -b 4096 -C "youremail@xx.xx"
+```
 
-2. set ternimal rel
-git clone https://github.com/wxcsdb88/linux.config.git
-
+# 2. terminal config
+>[linux.config](https://github.com/wxcsdb88/linux.config)
+```
 cd linux.config
 cp .inputrc ~/.inputrc
-#Don`t use the cp .inputrc /etc/inputrc
+```
+###### shouldn`t use the cp .inputrc /etc/inputrc
 
-3.vim plugin & sources update
+# 3. vim plugin & sources
+>[vim plugin](https://github.com/ma6174/vim)
+```
+sudo wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
+```
+>sources.list
+```
+cd linux.config
 sudo cp sources.list /etc/apt/
 sudo apt-get update
+```
 
-sudo wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
-
-4.terminator (multi terminator window tools)
+# 4. terminator(multiple windows)
+```
 sudo apt-get install terminator
+```
 
-5.sougou
-wget http://pinyin.sogou.com/linux/download.php?f=linux&bit=64
+# 5. go
+>[go1.7 for linux](https://golang.org/doc/install?download=go1.7.1.linux-amd64.tar.gz)
 
-mv download.php?f=linux sougou.deb
-sudo apt-get purge fcitx*
-sudo apt-get install gdebi
-sudo apt-get install gdebi-core
-#solve the depency & install 
-gdebi sougou.deb
-#reboot to install
-reboot
+>[go doc](https://golang.org/doc/)
+```
+sudo tar -C /usr/local -xzf go1.7.1.linux-amd64.tar.gz 
+```
+>add following lines to /etc/profile
+```
+export GOROOT=/usr/local/go
+export GOBIN=$GOROOT/bin
+export PATH=$GOROOT/bin:$PATH
+export GOPATH=$HOME/dev/work
+```
+>show go enviroment
+```
+go env
+```
+>[go1.7 for win x64](https://golang.org/dl/)
+```
+install location   D:\Go
+```
+>win10  win+x->path config:
+```
+config path:
+GOROOT=D:\Go
+GOPATH=E:\workspace\go
+GOBIN=%GOROOT%\bin
+PATH=%GOROOT%;%PATH%
+```
+>hello.go
+
+```go
+package main
+
+import "fmt"
+
+func main(){
+        fmt.Printf("hello, world\n")
+
+}
+
+```
+>build and run 
+```
+go build hello.go
+#linux
+./hello
+#or windows
+hello.exe
+#
+go run hello.go
+```
 
 
-
-
-
-
-
-`
