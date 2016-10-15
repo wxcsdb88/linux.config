@@ -36,6 +36,10 @@ cd linux.config
 sudo cp sources.list /etc/apt/
 sudo apt-get update
 ```
+>add pypi source
+index_url = http://pypi.douban.com/simple
+index_url = http://mirrors.aliyun.com/pypi/simple
+```
 
 ### 4. terminator(multiple windows)
 ```
