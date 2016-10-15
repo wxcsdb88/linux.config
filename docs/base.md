@@ -35,6 +35,17 @@ cd linux.config
 sudo cp sources.list /etc/apt/
 sudo apt-get update
 ```
+>add pypi source for China
+```
+sudo mkdir ~/.pip 
+sudo touch ~/.pip/pip.conf
+```
+>and append the follow lines to pip.conf
+```
+[global]
+index-url = http://pypi.douban.com/simple
+index-url = http://mirrors.aliyun.com/pypi/simple
+```
 
 ## terminator(multiple windows)
 ```
