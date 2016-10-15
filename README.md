@@ -36,13 +36,13 @@ cd linux.config
 sudo cp sources.list /etc/apt/
 sudo apt-get update
 ```
->add pypi source
+>add pypi source for China
 ```
 sudo mkdir ~/.pip 
 sudo touch ~/.pip/pip.conf
 ```
 
->and append the follow lines to it
+>and append the follow lines to pip.conf
 ```
 [global]
 index-url = http://pypi.douban.com/simple
