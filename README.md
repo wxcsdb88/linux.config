@@ -30,6 +30,7 @@ cp .inputrc ~/.inputrc
 ```
 sudo wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
 ```
+#### sources can ref [sources](https://github.com/wxcsdb88/linux.config/blob/master/sources/apt-sources) 
 >sources.list
 ```
 cd linux.config
