@@ -30,24 +30,24 @@ cp .inputrc ~/.inputrc
 ```
 sudo wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
 ```
-#### sources can ref [sources](https://github.com/wxcsdb88/linux.config/blob/master/sources/apt-sources) 
+#### sources can ref [apt-sources](https://github.com/wxcsdb88/linux.config/blob/master/sources/apt-sources)
 >sources.list
 ```
 cd linux.config
 sudo cp sources.list /etc/apt/
 sudo apt-get update
 ```
->add pypi source for China
-```
-sudo mkdir ~/.pip 
-sudo touch ~/.pip/pip.conf
-```
+#### sources can ref [pip-sources](https://github.com/wxcsdb88/linux.config/blob/master/sources/pypi-sources)
 
->and append the follow lines to pip.conf
+>and add ~/.pip/pip.conf that includes:
 ```
 [global]
-index-url = http://pypi.douban.com/simple
-index-url = http://mirrors.aliyun.com/pypi/simple
+trusted-host =  pypi.doubanio.com
+index-url = https://pypi.doubanio.com/simple
+# trusted-host =  pypi.python.org
+# index-url = https://pypi.python.org/pypi/simple
+# trusted-host =  mirrors.aliyun.com
+# index-url = https://mirrors.aliyun.com/pypi/simple
 ```
 
 ### 4. terminator(multiple windows)
@@ -60,7 +60,7 @@ sudo apt-get install terminator
 
 >[go doc](https://golang.org/doc/)
 ```
-sudo tar -C /usr/local -xzf go1.7.1.linux-amd64.tar.gz 
+sudo tar -C /usr/local -xzf go1.7.1.linux-amd64.tar.gz
 ```
 >add following lines to /etc/profile
 ```
@@ -98,7 +98,7 @@ func main(){
 }
 
 ```
->build and run 
+>build and run
 ```
 go build hello.go
 #linux
@@ -108,5 +108,3 @@ hello.exe
 #
 go run hello.go
 ```
-
-
