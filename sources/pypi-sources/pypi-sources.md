@@ -17,6 +17,8 @@ Add ~/.pip/pip.conf that includes:
 ```
 [global]
 index-url=https://<mirror>/simple
+disable-pip-version-check = true
+timeout = 120
 [install]
 trusted-host=mirror
 ```
