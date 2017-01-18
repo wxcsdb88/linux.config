@@ -29,10 +29,18 @@ auto lo
 iface lo inet loopback
 auto eth0
 iface eth0 inet static
-address 10.2.1.31
-netmask 255.255.255.128
-gateway 10.2.1.1
-dns-nameservers 8.8.8.8 8.8.4.4
+address 192.168.1.3
+netmask 255.255.255.0
+gateway 192.168.1.2
+broadcast 192.168.1.255
+dns-nameservers 192.168.1.2
+```
+### dns configure
+```
+# forever
+sudo vi /etc/resolvconf/resolv.conf.d/base
+nameserver 192.168.1.2
+nameserver 114.114.114.114
 ```
 
 ### enable above configure
