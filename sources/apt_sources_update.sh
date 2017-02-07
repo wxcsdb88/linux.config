@@ -17,7 +17,7 @@ bak_file_path="${file_dir_path}/${bak_file_name}"
 if [[ ${ubuntu_codename} =~ "trusty" ]]; then
 	echo -e "will update the ${file_path} for trusty(ubuntu 14.04)"
 	if [ -f "${file_path}" ]; then
-		mv ${file_path} ${bak_file_path}
+		mv -f ${file_path} ${bak_file_path}
 	fi
 	echo -e "backup the old sources.list file to ${bak_file_path}"
 	cd ${file_dir_path}
@@ -26,9 +26,8 @@ if [[ ${ubuntu_codename} =~ "trusty" ]]; then
 elif  [[ ${ubuntu_codename} =~ "xenial" ]]; then
 	echo -e "will update the ${file_path} for xenial(ubuntu 16.04)"
 	if [ -f "${file_path}" ]; then
-		mv ${file_path} ${bak_file_path}
+		mv -f ${file_path} ${bak_file_path}
 	fi
-	mv ${file_path} ${bak_file_path}
 	echo -e "backup the old sources.list file to ${bak_file_path}"
 	cd ${file_dir_path}
 	wget -O ${file_name} http://ojarf7dqy.bkt.clouddn.com/sources.list.16
