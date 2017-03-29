@@ -26,9 +26,14 @@ cp .inputrc ~/.inputrc
 
 
 ### 3. vim plugin & sources
->[vim plugin](https://github.com/ma6174/vim)
+>[vim plugin ma6174](https://github.com/ma6174/vim)
 ```
 sudo wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
+
+```
+>[vim plugin spf13 ](https://github.com/spf13/spf13-vim)
+```
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ```
 #### sources can ref [apt-sources](https://github.com/wxcsdb88/linux.config/blob/master/sources/apt-sources)
 >sources.list
