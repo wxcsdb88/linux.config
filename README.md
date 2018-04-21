@@ -1,3 +1,4 @@
+this repo will be replace by https://github.com/wxcsdb88/awesome-config.git
 # [Linux config Documentation](http://linuxconfig.readthedocs.io)
 
 ### 1. git
